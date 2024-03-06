@@ -8,6 +8,7 @@ library(lubridate)
 library(caret)
 library(randomForest)
 library(zoo) # for na.approx()
+library(reshape2)
 
 # Load the dataset
 stock <- read.csv("Stock Market Dataset.csv", stringsAsFactors = FALSE)
